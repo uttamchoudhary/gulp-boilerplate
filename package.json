@@ -17,10 +17,13 @@
         "gulp-babel": "^7.0.1",
         "gulp-clean-css": "^3.9.3",
         "gulp-concat": "^2.6.1",
+        "gulp-htmlclean": "^2.7.22",
+        "gulp-inject": "^4.3.2",
         "gulp-sass": "^4.0.0",
         "gulp-server-livereload": "^1.9.2",
         "gulp-sourcemaps": "^2.6.4",
-        "gulp-uglify": "^3.0.0"
+        "gulp-uglify": "^3.0.0",
+        "gulp-webserver": "^0.9.1"
     },
     "dependencies": {
         "gulp-live-server": "0.0.31"
