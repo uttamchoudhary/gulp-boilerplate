@@ -41,7 +41,7 @@ gulp.task('css', function() {
 });
 
 gulp.task('js', function() {
-    return gulp.src(paths.srcJS)
+    return gulp.src([paths.srcJS])
         .pipe(sourcemaps.init())
         .pipe(babel({
             presets: ['es2015'] // babel config object
@@ -91,7 +91,7 @@ gulp.task('css:dist', function() {
 });
 
 gulp.task('js:dist', function() {
-    return gulp.src(paths.srcJS)
+    return gulp.src([paths.srcJS])
         .pipe(sourcemaps.init())
         .pipe(concat('script.min.js'))
         .pipe(babel({
